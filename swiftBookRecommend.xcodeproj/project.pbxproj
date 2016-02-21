@@ -10,6 +10,7 @@
 		452EE3591AC99479B0E973AC /* Pods_swiftBookRecommend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E9E09A2A241967B75C7CEC /* Pods_swiftBookRecommend.framework */; };
 		5FDB3CB21C79993B00495195 /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB3CB11C79993B00495195 /* HRToast+UIView.swift */; };
 		5FDB3CB41C79BBA200495195 /* BookDetailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB3CB31C79BBA200495195 /* BookDetailview.swift */; };
+		5FDB3CB61C79DCEF00495195 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB3CB51C79DCEF00495195 /* README.md */; };
 		5FF030511C7990C300AD4E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF030501C7990C300AD4E08 /* AppDelegate.swift */; };
 		5FF030561C7990C300AD4E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF030541C7990C300AD4E08 /* Main.storyboard */; };
 		5FF030581C7990C300AD4E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF030571C7990C300AD4E08 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		54FA95AB78639C969652E6AF /* Pods-swiftBookRecommend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftBookRecommend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftBookRecommend/Pods-swiftBookRecommend.debug.xcconfig"; sourceTree = "<group>"; };
 		5FDB3CB11C79993B00495195 /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
 		5FDB3CB31C79BBA200495195 /* BookDetailview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailview.swift; sourceTree = "<group>"; };
+		5FDB3CB51C79DCEF00495195 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5FF0304D1C7990C300AD4E08 /* swiftBookRecommend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftBookRecommend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF030501C7990C300AD4E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF030551C7990C300AD4E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		5FF030441C7990C300AD4E08 = {
 			isa = PBXGroup;
 			children = (
+				5FDB3CB51C79DCEF00495195 /* README.md */,
 				5FF0304F1C7990C300AD4E08 /* swiftBookRecommend */,
 				5FF0304E1C7990C300AD4E08 /* Products */,
 				6DDBB096046412B54FF9C2D1 /* Pods */,
@@ -231,6 +234,7 @@
 				5FDB3CB21C79993B00495195 /* HRToast+UIView.swift in Sources */,
 				5FF030671C7994B700AD4E08 /* BookModel.swift in Sources */,
 				5FF030691C7995AB00AD4E08 /* BookManger.swift in Sources */,
+				5FDB3CB61C79DCEF00495195 /* README.md in Sources */,
 				5FF030511C7990C300AD4E08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
