@@ -20,6 +20,7 @@ class BookTableViewCell: UITableViewCell {
 			bookName.text = bookModel?.bookName
 			bookIntro.text = bookModel?.bookIntro
 			bookImage.layer.cornerRadius = 4// 给一点圆角
+			bookImage.clipsToBounds = true
 			guard let imageUlr = bookModel?.bookImage else {
 				bookImage.sd_setImageWithURL(NSURL(string: ""), placeholderImage: UIImage.init(named: "qidain"))
 				return
