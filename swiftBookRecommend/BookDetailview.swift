@@ -34,14 +34,14 @@ class BookDetailview: UIViewController, UIWebViewDelegate {
 	
 	func webViewDidStartLoad(webView: UIWebView) {
 		
-		print(webView)
+//		print(webView)
 	}
 	
 	func webViewDidFinishLoad(webView: UIWebView) {
-		print(webView)
+//		print(webView)
 	}
 	
 	func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
-		print(error)
+//		print(error)
 	}
 }
